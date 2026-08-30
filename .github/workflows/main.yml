@@ -13,3 +13,5 @@ jobs:
 
       - name: Run a test echo
         run: echo "Hello, robot is working!"
+      - name: Break the build
+        run: exit 1
